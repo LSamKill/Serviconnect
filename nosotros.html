@@ -7,15 +7,17 @@
 </head>
 <body>
 
-<header class="navbar">
-  <div class="logo">ServiConnect</div>
-  <nav>
-    <a href="index.html">Inicio</a>
-    <a href="servicios.html">Servicios</a>
-    <a href="detalle.html"></a>
-    <a href="nosotros.html">Nosotros</a>
-    <a href="contacto.html">Contacto</a>
-  </nav>
+<header>
+        <nav>
+            <a href="index.html" class="logo">ServiConnect</a>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="favoritos.html" class="carrito-link">❤️ <span id="carrito-contador" style="display:none;">0</span></a></li>
+            </ul>
+        </nav>
 </header>
 
 <section class="destacados nosotros-seccion">
@@ -24,10 +26,14 @@
     <p>Bienvenido a ServiConnect, tu plataforma de confianza para encontrar los mejores servicios profesionales.</p>
     <p>Desde 2023, ServiConnect ha crecido como un proyecto universitario dedicado a conectar clientes con proveedores locales de alta calidad. Nuestro equipo, formado por estudiantes comprometidos con la innovación y la excelencia, ha desarrollado una propuesta integral que une experiencia, atención personalizada y tecnología accesible.</p>
     <p>Ofrecemos servicios en mantenimiento doméstico, asesoría técnica, diseño creativo y soporte digital. Cada servicio se elige cuidadosamente para asegurar que los usuarios reciban soluciones rápidas, transparentes y adaptadas a sus necesidades.</p>
+    <div class="imagen-nosotros">
+      <img src="img/nosotros.jpg" alt="Equipo de ServiConnect trabajando" />
+    </div>
     <p>En ServiConnect creemos en el respaldo directo al cliente: si tienes dudas o quieres solicitar un servicio, estamos listos para ayudarte.</p>
     <p><a href="contacto.html">Contacto</a> - Haz clic aquí para enviarnos tu mensaje y obtener atención personalizada.</p>
   </div>
 </section>
 
+<script src="js/favoritos.js"></script>
 </body>
 </html>

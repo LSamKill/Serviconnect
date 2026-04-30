@@ -2,24 +2,27 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Detalle del Servicio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalles del Servicio</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-<header class="navbar">
-  <div class="logo">ServiConnect</div>
+<header>
   <nav>
-    <a href="index.html">Inicio</a>
-    <a href="servicios.html">Servicios</a>
-    <a href="#">Proyectos</a>
-    <a href="#">Nosotros</a>
-    <a href="contacto.html">Contacto</a>
+    <a href="index.html" class="logo">ServiConnect</a>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="servicios.html">Servicios</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a href="favoritos.html" class="carrito-link">❤️ <span id="carrito-contador" style="display:none;">0</span></a></li>
+    </ul>
   </nav>
 </header>
 
-<section class="detalle" id="detalle-servicio">
-  <!-- JS inserta contenido -->
+<section class="destacados">
+  <div id="detalle-servicio" class="contenedor-detalle"></div>
 </section>
 
 <script src="js/favoritos.js"></script>

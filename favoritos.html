@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favoritos - ServiConnect</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+<header>
+  <nav>
+    <a href="index.html" class="logo">ServiConnect</a>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="servicios.html">Servicios</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a href="favoritos.html" class="carrito-link">❤️ <span id="carrito-contador" style="display:none;">0</span></a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="destacados favoritos-seccion">
+    <div class="contenedor-favoritos">
+      <h1>Tu carrito de favoritos</h1>
+      <p class="favoritos-subtitulo">Aquí puedes revisar los servicios guardados temporalmente en tu carrito.</p>
+      <div id="favoritos-contenedor" class="favoritos-grid"></div>
+      <div id="favoritos-vacio" class="favoritos-vacio" style="display:none;">
+        <p>No hay servicios en tu carrito todavía.</p>
+        <a href="servicios.html" class="btn">Ver servicios</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 ServiConnect. Todos los derechos reservados.</p>
+</footer>
+
+<script src="js/favoritos.js"></script>
+<script src="js/favoritos-lista.js"></script>
+</body>
+</html>
