@@ -11,7 +11,7 @@
     "nombre": "Diseño de Página Web",
     "descripcion": "Creamos sitios web modernos, responsivos y optimizados.",
     "precio": 350000,
-    "imagen": "img/web.jpg"
+    "imagen": "img/Des_Web.jpg"
   },
   {
     "id": 3,
@@ -25,13 +25,13 @@
     "nombre": "Consultoría Empresarial",
     "descripcion": "Mejora tus procesos y toma decisiones estratégicas.",
     "precio": 250000,
-    "imagen": "img/consultoria.jpg"
+    "imagen": "img/consultoria-empresarial.jpg"
   },
   {
     "id": 5,
     "nombre": "Soporte Técnico Empresarial",
     "descripcion": "Mantenimiento y soluciones tecnológicas para tu empresa.",
     "precio": 150000,
-    "imagen": "img/soporte.jpg"
+    "imagen": "img/soportecnico.jpg"
   }
 ]

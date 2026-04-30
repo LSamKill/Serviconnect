@@ -39,7 +39,25 @@ nav ul { display: flex; list-style: none; gap: 20px; }
     background: white;
 }
 
+.hero-text {
+    flex: 1;
+    min-width: 300px;
+}
+
 .hero-text h1 { font-size: 3rem; margin-bottom: 20px; }
+
+.hero-img {
+    flex: 1;
+    min-width: 300px;
+}
+
+.hero-img img {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+}
 
 /* Beneficios */
 .beneficios {
