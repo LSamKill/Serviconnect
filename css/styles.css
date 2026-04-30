@@ -89,4 +89,82 @@ nav ul { display: flex; list-style: none; gap: 20px; }
     font-weight: 600;
 }
 
-button:hover { background: #15803d; }
+.btn:hover, .card button:hover {
+    background: #15803d;
+}
+
+/* 5. SECCIÓN DE BENEFICIOS */
+.beneficios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 5%;
+}
+
+.beneficios div {
+    background: #fff;
+    border-left: 4px solid #16a34a; /* Un detalle de diseño elegante */
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* ESTILOS PARA LA PÁGINA DE NOSOTROS */
+.destacados.nosotros-seccion {
+    background: linear-gradient(180deg, #f7faf8 0%, #edf7ef 100%);
+    padding: 60px 5%;
+}
+
+.destacados .contenedor-nosotros {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 28px;
+    padding: 40px 36px;
+    box-shadow: 0 22px 55px rgba(15, 23, 42, 0.09);
+    border: 1px solid rgba(22, 163, 74, 0.12);
+}
+
+.destacados h1 {
+    font-size: 2.75rem;
+    color: #0f172a;
+    margin-bottom: 1rem;
+    letter-spacing: -0.04em;
+}
+
+.destacados p {
+    color: #334155;
+    font-size: 1.05rem;
+    margin-top: 1.3rem;
+    line-height: 1.85;
+}
+
+.destacados p:first-of-type {
+    margin-top: 0.5rem;
+}
+
+.destacados a {
+    color: #16a34a;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.destacados a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+    .destacados .contenedor-nosotros {
+        padding: 28px 24px;
+    }
+
+    .destacados h1 {
+        font-size: 2.25rem;
+    }
+
+    .destacados p {
+        font-size: 1rem;
+    }
+}
