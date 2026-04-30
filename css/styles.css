@@ -30,6 +30,17 @@ nav {
 
 nav ul { display: flex; list-style: none; gap: 20px; }
 
+nav a {
+    color: #374151;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #16a34a;
+}
+
 /* Hero */
 .hero {
     display: flex;
