@@ -23,15 +23,36 @@
   {
     "id": 4,
     "nombre": "Consultoría Empresarial",
-    "descripcion": "Mejora tus procesos y toma decisiones estratégicas.",
-    "precio": 250000,
+    "descripcion": "Asesoramiento estratégico para optimizar tu negocio.",
+    "precio": 300000,
     "imagen": "img/consultoria-empresarial.jpg"
   },
   {
     "id": 5,
     "nombre": "Soporte Técnico Empresarial",
-    "descripcion": "Mantenimiento y soluciones tecnológicas para tu empresa.",
-    "precio": 150000,
+    "descripcion": "Soluciones técnicas para mantener tu empresa operativa.",
+    "precio": 200000,
     "imagen": "img/soportecnico.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Desarrollo de Aplicaciones Móviles",
+    "descripcion": "Creamos apps nativas y híbridas para iOS y Android.",
+    "precio": 500000,
+    "imagen": "img/app.webp"
+  },
+  {
+    "id": 7,
+    "nombre": "Análisis de Datos Empresariales",
+    "descripcion": "Procesamos y analizamos tus datos para insights accionables.",
+    "precio": 250000,
+    "imagen": "img/analisis.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Gestión de Redes Sociales",
+    "descripcion": "Administramos tus perfiles sociales para aumentar engagement.",
+    "precio": 150000,
+    "imagen": "img/redes-sociales.png"
   }
 ]
