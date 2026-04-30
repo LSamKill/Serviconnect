@@ -1,61 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>ServiConnect</title>
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServiConnect - Inicio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <div class="logo">ServiConnect</div>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<!-- NAVBAR -->
-<header class="navbar">
-  <div class="logo">ServiConnect</div>
-  <nav>
-    <a href="index.html">Inicio</a>
-    <a href="servicios.html">Servicios</a>
-    <a href="detalle.html">Proyectos</a>
-    <a href="#">Nosotros</a>
-    <a href="contacto.html">Contacto</a>
-  </nav>
-  <button class="btn">Regístrate</button>
-</header>
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Conectamos tus necesidades con los mejores profesionales</h1>
+                <p>Encuentra servicios de calidad en un solo lugar.</p>
+                <a href="servicios.html" class="btn">Explorar Servicios</a>
+            </div>
+            <div class="hero-img">
+                <img src="img/hero-image.jpg" alt="Servicios Profesionales">
+            </div>
+        </section>
 
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-text">
-    <h1>Encuentra las mejores <span>servicios digitales</span></h1>
-    <p>Conecta con profesionales expertos que transformarán tus ideas en realidad digital</p>
+        <section class="beneficios">
+            <div class="beneficio-item">
+                <i class="bi bi-briefcase"></i>
+                <span>Servicios Profesionales</span>
+            </div>
+            <div class="beneficio-item">
+                <i class="bi bi-clock-history"></i>
+                <span>Entrega Rápida</span>
+            </div>
+            <div class="beneficio-item">
+                <i class="bi bi-shield-check"></i>
+                <span>Calidad Garantizada</span>
+            </div>
+        </section>
 
-    <input type="text" placeholder="¿Qué servicio necesitas?" class="buscador">
-    <button class="btn">Buscar servicios</button>
-  </div>
+        <section class="container">
+            <h2>Servicios Destacados</h2>
+            <div id="servicios-container" class="cards"></div>
+        </section>
+    </main>
 
-  <div class="hero-img">
-    <img src="img/hero.png" alt="hero">
-  </div>
-</section>
+    <footer>
+        <p>&copy; 2026 ServiConnect. Todos los derechos reservados.</p>
+    </footer>
 
-<!-- BENEFICIOS -->
-<section class="beneficios">
-  <div>Servicios Profesionales</div>
-  <div>Entrega Rápida</div>
-  <div>Calidad Garantizada</div>
-  <div>Soporte 24/7</div>
-</section>
-
-<!-- SERVICIOS DESTACADOS -->
-<section class="destacados">
-  <h2>Servicios Destacados</h2>
-
-  <div class="cards" id="servicios-container">
-    <!-- JS los inserta -->
-  </div>
-</section>
-
-<script src="js/favoritos.js"></script>
-<script src="js/app.js"></script>
-
-<!-- Juanes estuvo aquí -->
-
+    <script src="js/favoritos.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
