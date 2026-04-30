@@ -413,3 +413,116 @@ footer {
     box-shadow: 0 18px 35px rgba(15, 23, 42, 0.12);
     border: 1px solid rgba(22, 163, 74, 0.14);
 }
+
+/* PÁGINA DE DETALLES DEL SERVICIO */
+.contenedor-detalle {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-detalle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.card-detalle .img-detalle {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.info-detalle h1 {
+    font-size: 2.5rem;
+    color: #0f172a;
+    margin-bottom: 20px;
+}
+
+.info-detalle .descripcion-completa {
+    font-size: 1.1rem;
+    color: #475569;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.precio-detalle {
+    font-size: 2rem;
+    color: #16a34a;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.botones-detalle {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.botones-detalle .btn,
+.btn-favorito {
+    padding: 14px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.botones-detalle .btn {
+    background: #16a34a;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.botones-detalle .btn:hover {
+    background: #15803d;
+}
+
+.btn-favorito {
+    background: #fbbf24;
+    color: #111827;
+}
+
+.btn-favorito:hover {
+    background: #f59e0b;
+}
+
+.btn-contacto {
+    background: #3b82f6;
+}
+
+.btn-contacto:hover {
+    background: #2563eb;
+}
+
+@media (max-width: 768px) {
+    .contenedor-detalle {
+        padding: 20px;
+    }
+
+    .card-detalle {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .info-detalle h1 {
+        font-size: 2rem;
+    }
+
+    .precio-detalle {
+        font-size: 1.5rem;
+    }
+
+    .botones-detalle {
+        flex-direction: column;
+    }
+}
