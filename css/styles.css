@@ -1,0 +1,98 @@
+/* 1. RESET GLOBAL (Agrega esto al puro inicio de tu archivo) */
+* {
+    box-sizing: border-box; /* Evita que el padding rompa el tamaño de los elementos */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* 2. MEJORA DEL HERO */
+.hero {
+    display: flex;
+    flex-wrap: wrap; /* Para que en celular la imagen baje */
+    padding: 60px 5%;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.hero-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* 3. EL SISTEMA DE TARJETAS (CORREGIDO) */
+.cards {
+    display: grid;
+    /* Esto crea 3 columnas, pero si no caben, se ajustan solas */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.card {
+    background: white;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* Sombra suave para profesionalismo */
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efecto al pasar el mouse */
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; /* Evita que las fotos se estiren feo */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* 4. BOTONES MÁS BONITOS */
+.btn, .card button {
+    background: #16a34a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover, .card button:hover {
+    background: #15803d;
+}
+
+/* 5. SECCIÓN DE BENEFICIOS */
+.beneficios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 5%;
+}
+
+.beneficios div {
+    background: #fff;
+    border-left: 4px solid #16a34a; /* Un detalle de diseño elegante */
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
