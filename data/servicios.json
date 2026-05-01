@@ -4,7 +4,7 @@
     "nombre": "Curso de Excel Avanzado",
     "descripcion": "Aprende tablas dinámicas, macros y dashboards profesionales.",
     "precio": 120000,
-    "imagen": "img/excel.jpg"
+    "imagen": "img/excel-avanzado.jpg"
   },
   {
     "id": 2,
@@ -18,7 +18,7 @@
     "nombre": "Marketing Digital",
     "descripcion": "Estrategias digitales para aumentar tus ventas.",
     "precio": 180000,
-    "imagen": "img/MK digital.jpg"
+    "imagen": "img/mark-digital.jpg"
   },
   {
     "id": 4,
