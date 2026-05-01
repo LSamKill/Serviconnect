@@ -160,7 +160,13 @@ nav a:hover {
 }
 
 .beneficio-item { text-align: center; }
-.beneficio-item i { font-size: 2rem; display: block; color: #16a34a; }
+.beneficio-item i { font-size: 2rem; display: block; color: #16a34a; margin-bottom: 12px; }
+.beneficio-item p {
+    color: #6b7280;
+    font-size: 0.95rem;
+    margin-top: 10px;
+    line-height: 1.6;
+}
 
 /* Grid de Tarjetas */
 .cards {
