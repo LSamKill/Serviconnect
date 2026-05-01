@@ -53,13 +53,24 @@ nav a:hover {
 .carrito-link {
     position: relative;
     font-size: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: #f8fafc;
+    color: #111827;
+}
+
+.carrito-link:hover {
+    background: #ecfdf5;
 }
 
 #carrito-contador {
     background: #dc2626;
     color: white;
     border-radius: 50%;
-    width: 20px;
+    min-width: 20px;
     height: 20px;
     display: inline-flex;
     align-items: center;
@@ -67,8 +78,9 @@ nav a:hover {
     font-size: 0.75rem;
     font-weight: bold;
     position: absolute;
-    top: -8px;
-    right: -8px;
+    top: -6px;
+    right: -6px;
+    padding: 0 4px;
 }
 
 @media (max-width: 768px) {
